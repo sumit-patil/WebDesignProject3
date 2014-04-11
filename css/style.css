@@ -1,0 +1,78 @@
+body{
+	background-image: url("../images/blackstrip.png");
+}
+p { 
+	font-family: 'Nova Square', cursive; 
+}
+#page-wrapper{
+	width: 1060px;
+	margin: 20px auto;
+	background-color: #ddd;
+	-webkit-box-shadow: 5px 7px 10px 10px rgba(22, 33, 55, 1);
+	box-shadow: 5px 7px 10px 10px rgba(22, 33, 55, 1); 
+
+	background: -moz-linear-gradient(top, rgba(63,76,107,1) 0%, rgba(63,76,107,0.69) 38%, rgba(63,76,107,0.59) 50%, rgba(63,76,107,0.47) 73%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(63,76,107,1)), color-stop(38%,rgba(63,76,107,0.69)), color-stop(50%,rgba(63,76,107,0.59)), color-stop(73%,rgba(63,76,107,0.47))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(63,76,107,1) 0%,rgba(63,76,107,0.69) 38%,rgba(63,76,107,0.59) 50%,rgba(63,76,107,0.47) 73%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(63,76,107,1) 0%,rgba(63,76,107,0.69) 38%,rgba(63,76,107,0.59) 50%,rgba(63,76,107,0.47) 73%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(63,76,107,1) 0%,rgba(63,76,107,0.69) 38%,rgba(63,76,107,0.59) 50%,rgba(63,76,107,0.47) 73%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(63,76,107,1) 0%,rgba(63,76,107,0.69) 38%,rgba(63,76,107,0.59) 50%,rgba(63,76,107,0.47) 73%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#783f4c6b',GradientType=0 ); /* IE6-9 */
+}
+#header{
+	height: 230px;
+	width: 1060px;
+	position: relative;
+}
+#footer{
+	background-color: black;
+	color: white;
+	height: 80px;
+	width: 1060px;
+	clear: both;
+}
+
+#main-content{
+	height: 300px;
+	width: 280px;
+	margin:20px 0px 20px 50px;
+	float: left;
+}
+#main-content a{
+	font-family: 'Baumans', cursive;
+}
+#right-content{
+	height: 300px;
+	width: 330px; 
+	margin-left: 20px;
+	float: left;
+}
+
+#left-content{
+	height: 300px;
+	width: 270px;
+	margin: 20px 30px 10px 20px;
+	float: left;
+}
+
+a:hover{
+	color: red;
+}
+
+nav{
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+}
+
+nav a{
+	padding: 20px;
+	color: white;
+}
+
+nav a:hover{
+	background-color:red;
+	color: black;
+	box-shadow: 2px 2px 2px 2px rgba(22, 33, 55, 1); 
+	border-radius: 5x;
+}
